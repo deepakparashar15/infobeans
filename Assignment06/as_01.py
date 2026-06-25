@@ -24,7 +24,7 @@ if units <= 100:
 elif units >=101 and units <= 200:
     bill = 500+(unit-100)*7 
 elif units >= 200:
-    bill= 500+ (100*7) + (units -200)*10
+    bill= 500+ (100*7) + ((units -200)*10)
 print("bill=",bill)     
 		    
 		    

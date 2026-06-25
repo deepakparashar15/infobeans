@@ -34,7 +34,7 @@ if policy_age >= 2:
         else:
             print("Claim Status = Approved with Inspection")
 
-    elif claim <= 200000:
+    elif claim >= 50001 and claim <= 200000:
 
         if accident == "major":
             print("Claim Status = Approved with Investigation")
