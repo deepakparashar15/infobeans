@@ -13,24 +13,16 @@ using fopr loop
 """
  
 n = int(input("Enter NO.: "))                                        
+sum=0
+for i in range(len(str(n))):
+    a=n%10
+    sum+=a
+    n//=10
 
-l = len(str(n))
-c = 0
-i = 0
 
-for i in range(l):
-    a = n % 10
+print("All Even" if sum%2==0 else "Not All Even")
 
-    if a % 2 == 1:
-        c += 1
-
-    n = n // 10
-    i += 1
-
-print("Even digits count =", c)
 """
-
-'''
 
 
 
@@ -43,3 +35,4 @@ while n>0:
     n//=10
    
 print("All Even" if sum%2==0 else "Not All Even")
+"""

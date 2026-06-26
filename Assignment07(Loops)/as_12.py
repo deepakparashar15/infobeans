@@ -24,6 +24,7 @@ print(f"output :{p}")
 print("even" if p%2==0 else "odd")
 
 """
+using for loop
 
 n=int(input("Enter The Number : "))
 p=1
